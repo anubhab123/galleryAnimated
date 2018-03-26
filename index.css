@@ -1,0 +1,357 @@
+.container{
+    display:flex;
+    flex-wrap: nowrap;
+    width:1538px;
+    justify-content: center;
+    align-items: center;
+    position:relative;
+}
+
+.gray-box{
+    width:250px;
+    height:140px;
+    display:inline-block;
+    background:lightgray;
+}
+
+.red-box{
+    background-color: #e82061;
+    height: 284px;
+    width: 512px;
+    position: absolute;
+    left: 253px;
+    top: 0px;
+    z-index:7;
+}
+
+.redbox-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    right: 9px;
+}
+
+.redbox-image img{
+    width: 279px;
+    height: 287px;
+}
+
+.blue-box{
+    background-color: #2f2ce8;
+    height: 284px;
+    width: 510px;
+    position: absolute;
+    left: 767px;
+    top: 287px;
+}
+
+.bluebox-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    right: 9px;
+}
+
+.bluebox-image img{
+    width: 279px;
+    height: 287px;
+    position:relative;
+}
+
+.graybox-image{
+    position:absolute;
+}
+
+.graybox-image img{
+    width:125px;
+    height:125px;
+}
+
+/* Specific shifts of each image to make it seem like a grid*/
+
+#Angelica{
+    left: 66px;
+    top: 7px;
+}
+
+#Blue{
+    left: 814px;
+    top: 11px;
+}
+
+#Blue img{
+    width: 169px;
+    height: 125px;
+}
+
+#Bowser{
+    left: 1089px;
+    top: 9px;
+}
+
+#Cat{
+    left: 1363px;
+    top: 9px;
+}
+
+#Cat img{
+    width: 89px;
+    height: 121px;
+}
+
+#Chuckie{
+    left: 41px;
+    top: 152px;
+}
+
+#Cow{
+    left: 824px;
+    top: 155px;
+}
+
+#Dora{
+    left: 1083px;
+    top: 156px;
+}
+
+#Doraemon{
+    left: 1341px;
+    top: 154px;
+}
+
+#Fox{
+    left: 54px;
+    top: 298px;
+}
+
+#Lizard{
+    left: 320px;
+    top: 298px;
+}
+
+#map{
+    left: 547px;
+    top: 298px;
+}
+
+#map img{
+    width: 180px;
+    height: 120px;
+}
+
+#pepper{
+    left: 1344px;
+    top: 297px;
+}
+
+#Reptar{
+    left: 45px;
+    top: 443px;
+}
+
+#Sonic{
+    left: 304px;
+    top: 439px;
+}
+
+#Spongebob{
+    left: 572px;
+    top: 440px;
+}
+
+#Squirrel{
+    left: 1354px;
+    top: 440px;
+}
+
+#Boots{
+    left: 565px;
+    top: 10px
+}
+
+/* Temporary Greybox images to turn into Redbox */
+.angelica-red-box{
+    left: 0px;
+    top: 0px;
+    width: 250px;
+    height: 140px;
+    background: lightgray;
+    position:absolute;
+    z-index:9;
+}
+
+#angelica-red-box-image{
+    position: relative;
+    left: 66px;
+    top: 7px;
+    width: 125px;
+    height: 125px;
+}
+
+.hidden-boots{
+    display:none;
+    position: absolute;
+    left: 56px;
+    top: 10px;
+    width: 125px;
+    height: 125px;
+}
+
+/* Temporary Greybox images to turn into Redbox(Boots) */
+.graybox-temp-boots{
+    left: 513px;
+    top: 0px;
+    width: 250px;
+    height: 140px;
+    background: lightgray;
+    position:absolute;
+    z-index:5;
+    cursor:pointer;
+}
+
+#Boots-temp{
+    position: relative;
+    left: 52px;
+    top: 10px;
+    width: 125px;
+    height: 125px;
+}
+
+/* Temporary Hoverable Lizrd box to turn into yellow box*/
+.lizard-yellow-box{
+    position: absolute;
+    width: 250px;
+    height: 140px;
+    left: 256px;
+    top: 288px;
+    z-index: 5;
+    cursor:pointer;
+}
+
+.lizard-yellow-box img{
+    width:125px;
+    height:125px;
+    position: relative;
+    left: 64px;
+    top: 10px;
+}
+
+/* Temporary Hoverable Map Box */
+.map-red-box{
+    position: absolute;
+    width: 250px;
+    height: 140px;
+    left: 768px;
+    top: 288px;
+    z-index: 5;
+    cursor:pointer;
+}
+
+#map-red-box-image{
+    position: relative;
+    left: 31px;
+    top: 10px;
+    width: 180px;
+    height: 120px;
+}
+
+/* Temporary Hoverable Cow */
+.cow-lightblue-box{
+    width: 250px;
+    height: 140px;
+    position: absolute;
+    background: lightgray;
+    left: 769px;
+    top: 143px;
+    z-index:5;
+    cursor:pointer;
+}
+
+#cow-lightblue-box-image{
+    position: relative;
+    left: 55px;
+    top: 12px;
+    width:125px;
+    height:125px;
+}
+
+/* Temporary Hoverable Dora with boots */
+.dora-boots-green-box{
+    display:none;
+    width: 250px;
+    height: 138px;
+    position: absolute;
+    background: lightgray;
+    left: 1024px;
+    top: 146px;
+    z-index:10;
+    cursor:pointer;
+}
+
+#dora-boots-green-box-image{
+    position: relative;
+    left: 59px;
+    top: 10px;
+    width:125px;
+    height:125px;
+}
+
+/* Temporary Hoverable Mario Kart */
+.mario-kart-bluebox-redbox{
+    width: 250px;
+    height: 140px;
+    position: absolute;
+    background: lightgray;
+    left: 1024px;
+    top: 288px;
+    z-index:12;
+    cursor:pointer;
+}
+
+#mario-kart-bluebox-redbox-image{
+    position: relative;
+    left: 59px;
+    top: 8px;
+    width:125px;
+    height:125px;
+}
+
+/* Temporary Pepper Orange Box */
+.pepper-orangebox{
+    width: 250px;
+    height: 140px;
+    position: absolute;
+    background: lightgray;
+    left: 1282px;
+    top: 288px;
+    z-index:10;
+}
+
+#pepper-orangebox-image{
+    position: relative;
+    left: 62px;
+    top: 9px;
+    width:125px;
+    height:125px;
+}
+
+/* Temporary Doraemon Box */
+.doraemon-yellowbox{
+    width: 250px;
+    height: 140px;
+    position: absolute;
+    background: lightgray;
+    left: 1282px;
+    top: 144px;
+    z-index:10;
+}
+
+#doraemon-yellowbox-image{
+    position: relative;
+    left: 59px;
+    top: 10px;
+    width:125px;
+    height:125px;
+}
